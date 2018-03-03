@@ -4,7 +4,7 @@ PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/games:/usr/local/sbin:/usr/local/bin:/ro
 if [ $# = 0 ]; then
   echo
   echo Usage example:
-  echo ./IP2JSON.sh IPs.txt > points.json
+  echo "./IP2JSON.sh IPs.txt > points.json"
   echo
   exit 1
 fi
